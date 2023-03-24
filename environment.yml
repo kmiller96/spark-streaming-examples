@@ -1,0 +1,14 @@
+name: sss
+
+channels:
+  - defaults
+
+dependencies:
+  - python
+
+  - pyspark
+  - black
+  - pylint
+
+  - pip:
+      - fire
