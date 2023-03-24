@@ -50,7 +50,7 @@ def generate_file(fpath: str, *, start: int = 0, end: int = 1000):
 ##################
 
 
-def main(unload_dir: str, *, n_files: int = -1, fps: float = 0.5, rpf: int = 1000):
+def main(unload_dir: str, n_files: int = -1, fps: float = 0.5, rpf: int = 1000):
     """Generates data according to the CLI configuration.
 
     Args:
